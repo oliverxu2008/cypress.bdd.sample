@@ -1,0 +1,10 @@
+{
+	"baseUrl": "https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/",
+	"env": {
+		"environment": "prod",
+		"testUser": {
+			"username": "testUser@l31gurmz.mailosaur.net",
+			"password": "abc123#"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "homeLoanCalculator": {
+        "page_url_text": "personal/home-loans/calculators-tools/much-borrow/",
+        "page_title": "Home loan borrowing power calculator | ANZ",
+        "applicationTypeSingle": "[for='application_type_single']",
+        "applicationTypeJoint": "[for='application_type_joint']",
+        "dependantsNumber": "[title='Number of dependants']",
+        "borrowTypeHome": "[for='borrow_type_home']",
+        "borrowTypeInvestment": "[for='borrow_type_investment']",
+        "annualIncome": "[aria-labelledby='q2q1']",
+        "annualOtherIncome": "[aria-labelledby='q2q2']",
+        "monthlyLivingExpense": "[aria-labelledby='q3q1']",
+        "currentHomeLoanRepayments": "[aria-labelledby='q3q2']",
+        "currentOtherLoanRepayments": "[aria-labelledby='q3q3']",
+        "otherMonthlyCommitments": "[aria-labelledby='q3q4']",
+        "totalCreditCardLimits": "[aria-labelledby='q3q5']",
+        "btnBorrowCalculator": "#btnBorrowCalculater",
+        "btnStartOver": ".borrow__result__action > .result__restart > .start-over",
+        "loanEstimateResult": "#borrowResultTextAmount"
+    }
+}

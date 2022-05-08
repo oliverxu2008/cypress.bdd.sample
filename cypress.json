@@ -1,0 +1,24 @@
+{
+	"testFiles": "**/**/**/*.{feature,features}",
+	"ignoreTestFiles": "*.js",
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
+	"deafultWaitSelectorTimeout": 60000,
+	"pageLoadTimeout": 60000,
+	"defaultCommandTimeout": 30000,
+	"chromeWebSecurity": false,
+	"screenshotOnRunFailure": true,
+	"videoUploadOnPasses": false,
+	"video": false,
+	"trashAssetsBeforeRuns": true,
+	"integrationFolder": "cypress/integration",
+	"pluginsFile": "cypress/plugins/index.js",
+	"fixturesFolder": "cypress/fixtures",
+	"screenshotsFolder": "testResults/screenshots",
+	"videosFolder": "testResults/videos",
+	"blockHosts": [ "https://dt.adsafeprotected.com/**" ],
+	"numTestsKeptInMemory": 50,
+	"env": {
+		"allureResultsPath": "testResults/allure-results"
+	}
+}

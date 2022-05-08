@@ -1,0 +1,41 @@
+{
+	"name": "test.framework.cypress.template",
+	"version": "1.0.0",
+	"description": "Cypress test automation using Cucumber BDD",
+	"main": "index.js",
+	"author": "",
+	"license": "ISC",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:open:prod": "cypress open  --env configFile=prod",
+		"cy:run": "cypress run --headless --browser chrome --env allure=true",
+		"cy:run:jenkins": "cypress run --headless --browser chrome --env allure=true",
+		"cy:run:jenkins:prod": "cypress run --headless --browser chrome --env allure=true --env configFile=prod",
+		"cy:run:chrome": "cypress run --browser chrome --headless --env allure=true",
+		"cy:run:chrome:headed": "cypress run --browser chrome --headed --env allure=true",
+		"cy:run:firefox": "cypress run --browser firefox --headless --env allure=true",
+		"cy:run:firefox:headed": "cypress run --browser firefox --headed --env allure=true",
+		"allure:report": "allure serve testResults/allure-results --clean -o testResults/allure-report",
+		"singlefeature": "cypress run --headless --browser chrome --env allure=true --spec **/**/loanCalculate.feature"
+	},
+	"cypress-cucumber-preprocessor": {
+		"nonGlobalStepDefinitions": true,
+		"cucumberJson": {
+			"generate": true,
+			"outputFolder": "testResults/cucumber-json",
+			"filePrefix": "cucumber_",
+			"fileSuffix": ""
+		}
+	},
+	"devDependencies": {
+		"@bahmutov/cy-api": "^1.4.2",
+		"@shelex/cypress-allure-plugin": "^1.8.1",
+		"allure-commandline": "^2.13.0",
+		"cypress": "^5.1.0",
+		"cypress-cucumber-preprocessor": "^2.5.5",
+		"cypress-xpath": "^1.6.2"
+	},
+	"dependencies": {
+		"chai": "^4.2.0"
+	}
+}
