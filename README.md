@@ -61,7 +61,7 @@ npm run cy:run:jenkins:prod -- --spec cypress/integration/loan/loanCalculate.fea
 ```
 
 ### How to generate & open allure test report
-`
+```
 npm run singlefeature
 npm run allure:report
-`
+```
