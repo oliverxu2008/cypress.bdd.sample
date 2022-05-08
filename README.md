@@ -1,4 +1,4 @@
-# Cypress Test Framework with BDD Cucumber
+# Cypress Test with BDD Cucumber
 
 ## Project Description:
 1. Framework : Cypress
